@@ -42,6 +42,7 @@ and disseminate results to support Médecins Sans Frontières (MSF) and
 partners with timely and targeted intervention strategies. However, a
 lack of standardised analytical methods within MSF challenges this
 process. 
+
 The R4epis project group consists of 18 professionals with expertise in:
 R programming, field epidemiology, data science, health information
 systems, geographic information systems, and public health.
@@ -53,6 +54,7 @@ Analyses and outputs were piloted and validated by epidemiologists using
 historical data. The resulting templates were made available to field
 epidemiologists for field testing, which was conducted between February
 and April 2019.  
+
 R4epis will contribute to the improvement of the quality, timeliness,
 consistency of data analyses and standardisation of outputs from field
 epidemiologists during emergency response. 
