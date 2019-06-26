@@ -1,3 +1,8 @@
+# What we want to do
+
+ - create ready-to-use templates for use for most common outbreak response scenarios
+ - create educational materials to go along with these templates
+
 # Data guides the emergency response
 
  - collect data (count data)
