@@ -1,3 +1,58 @@
+I have 18 minutes, which means that I can divide the talk into three four-minute
+sections and two three-minute sections. 
+
+
+# 1. Acknowledgements (1 minute)
+
+## Major Players
+
+  - Annick Lenglet and Amrish Baidjoe: kicking off the initiative
+  - Annick Lenglet: managing everything
+  - Dirk Schumacher: initial rounds of coding
+  - Alex Spina: template authoring and management 
+
+## Main Contributors
+
+  - Lukas Richter
+  - Chris Jarvis
+  - Kate Doyle
+
+# 2. Dreams of an Epidemiologist (2 minutes)
+
+
+
+# 3. Background (3 minutes)
+ 
+ - Data analysis is integral to informing operational elements of humanitarian
+   medical responses. 
+
+ - Field epidemiologists play a central role in informing such responses as
+   they aim to rapidly collect, analyse and disseminate results to support
+   Médecins Sans Frontières (MSF) and partners with timely and targeted
+   intervention strategies. 
+
+ - However, a lack of standardised analytical methods within MSF challenges
+   this process.  Moreover, analytics software to clean, shape, and analyse
+   data is often expensive and proprietary. 
+
+ - To address these issues, we assembled a multi-disciplinary team of experts
+   to develop standardised methods, scripts, and training using the free,
+   open-source data analysis software R, for scenarios that MSF field
+   epidemiologists most frequently engage in. 
+
+# 4. Challenges we faced (4 minutes)
+
+# 5. Feedback from field Epis (4 minutes)
+
+# 6. Further directions (4 minutes)
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
 # What we want to do
 
  - create ready-to-use templates for use for most common outbreak response scenarios
