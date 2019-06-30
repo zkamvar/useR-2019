@@ -4,14 +4,19 @@ sections and two three-minute sections.
 
 # 1. Acknowledgements (1 minute)
 
-## Major Players
+## Funding + Authors
+
+ - MSF Sapling Nursery Funding
+ - Imperial College London (my time)
+
+## Highlight Major Players
 
   - Annick Lenglet and Amrish Baidjoe: kicking off the initiative
   - Annick Lenglet: managing everything
   - Dirk Schumacher: initial rounds of coding
   - Alex Spina: template authoring and management 
 
-## Main Contributors
+## Highlight Main Contributors to Templates
 
   - Lukas Richter
   - Chris Jarvis
@@ -19,10 +24,25 @@ sections and two three-minute sections.
 
 # 2. Dreams of an Epidemiologist (2 minutes)
 
+"the hope is that the majority of the time you are spending out in the
+community, supervising data collectors and getting a feel for the context/risk
+factors."
 
+ -- Alex Spina
 
 # 3. Background (3 minutes)
  
+What tends to happen is that you have messy data so spend a lot of
+time cleaning and then double checking / going back to data managers and
+collectors to try and fix inconsistencies. Then probably about once a week you
+spend time pulling together figures and numbers from different excel sheets to
+write a sitrep together ... which probably ends up taking a whole day depending
+on how messy everything is.
+.... back logs... more messy data.... no field time.... more messy data.... you
+get the picture.
+
+---------
+
  - Data analysis is integral to informing operational elements of humanitarian
    medical responses. 
 
@@ -40,7 +60,28 @@ sections and two three-minute sections.
    open-source data analysis software R, for scenarios that MSF field
    epidemiologists most frequently engage in. 
 
-# 4. Challenges we faced (4 minutes)
+----------
+
+R4epi in theory simplifies and standardises all of that so that you save a lot
+of time pointing and clicking and finding files - and spend more time out doing
+what field epi is about.
+
+# 3.1 What did we accomplish (2 minutes)
+
+ - Simplification
+ - Standardization
+ - Unification
+
+Think the major success is simplifying, standardising and unifying methods for
+analysis. Not sure we are entirely there yet but hey presto theory. Think the
+major drawbacks to date are the lack of field testing ... hackathon half
+addresses that but is still very in-vitro testing!
+
+Alex Spina  [12 minutes ago]
+Think the other thing this package gives beyond just msf field work ... is
+generally simplifying R for all epis!
+
+# 4. Challenges we faced (2 minutes)
 
 # 5. Feedback from field Epis (4 minutes)
 
