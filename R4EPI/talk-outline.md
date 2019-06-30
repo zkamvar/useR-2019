@@ -68,6 +68,8 @@ what field epi is about.
 
 # 3.1 What did we accomplish (2 minutes)
 
+ <!-- use imagery of the triforce of wisdom -->
+ 
  - Simplification
  - Standardization
  - Unification
