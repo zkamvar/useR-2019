@@ -1,5 +1,7 @@
-I have 18 minutes, which means that I can divide the talk into three four-minute
-sections and two three-minute sections. 
+~I have 18 minutes, which means that I can divide the talk into three four-minute
+sections and two three-minute sections. ~
+
+CHANGE OF PLANS: I HAVE 15 MINUTES
 
 
 # 1. Acknowledgements (1 minute)
@@ -21,6 +23,8 @@ sections and two three-minute sections.
   - Lukas Richter [^1] 
   - Kate Doyle
   - Chris Jarvis
+  - Pat Keating
+  - Dirk Schumacher
 
 [^1]: Outside collaborator
 
