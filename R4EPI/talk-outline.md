@@ -19,7 +19,6 @@ sections and two three-minute sections.
 ## Highlight Main Contributors to Templates
 
   - Lukas Richter
-  - Chris Jarvis
   - Kate Doyle
 
 # 2. Dreams of an Epidemiologist (2 minutes)
