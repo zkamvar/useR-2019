@@ -13,13 +13,16 @@ sections and two three-minute sections.
 
   - Annick Lenglet and Amrish Baidjoe: kicking off the initiative
   - Annick Lenglet: managing everything
-  - Dirk Schumacher: initial rounds of coding
+  - Dirk Schumacher: initial rounds of coding and cat herding
   - Alex Spina: template authoring and management 
 
 ## Highlight Main Contributors to Templates
 
-  - Lukas Richter
+  - Lukas Richter [^1] 
   - Kate Doyle
+  - Chris Jarvis
+
+[^1]: Outside collaborator
 
 # 2. Dreams of an Epidemiologist (2 minutes)
 
@@ -30,6 +33,11 @@ factors."
  -- Alex Spina
 
 # 3. Background (3 minutes)
+
+Announcement article: <https://twitter.com/msf_innovation/status/1054845762838949889>
+Amrish tweet:         <https://twitter.com/Ammer_B/status/1055017765956976640>
+Larissa article:      <https://blogs.msf.org/bloggers/larissa/innovation-introducing-r4epis>
+Pete Masters tweet:   <https://twitter.com/pedrito1414/status/1079644938911076352>
  
 What tends to happen is that you have messy data so spend a lot of
 time cleaning and then double checking / going back to data managers and
