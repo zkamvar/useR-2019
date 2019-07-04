@@ -26,6 +26,20 @@ CHANGE OF PLANS: I HAVE 15 MINUTES
   - Pat Keating
   - Dirk Schumacher
 
+## participatns in hackathon
+
+
+
+ - Kate Doyle 
+ - Neale Batra
+ - Maria Verdecchia
+ - Alanah Jansen
+ - Elburg van Boetzelaer
+ - Alex Spina
+ - Zhian Kamvar
+ - Annick Lenglet
+ - Amrish Baidjoe
+
 [^1]: Outside collaborator
 
 # 2. Dreams of an Epidemiologist (2 minutes)
