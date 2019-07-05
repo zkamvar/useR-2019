@@ -48,6 +48,7 @@ Fifteen minutes is enough to divide the talk up into
 
 ## Data Collection
 
+
 ## Analysis
 
 ## Operational Decisions/Interventions
@@ -90,5 +91,40 @@ ensuring that the analyses were suited to their needs.
 Annick and Amrish got together and wrote the proposal. We had an initial meeting
 in October of 2018 with epis, managers, NGOs and RECON to get a sense of what
 the landscape was.
+
+# Creating templates
+
+Using RMarkdown templates early on was the goal. They provided a simple way to
+combine prose and code directly to a word document (which was what field epis
+were used to). The idea was to create a package to host these templates that
+initially contained helper functions to create 2x2 tables and other descriptive
+statistics such as non-naive case fatality ratios and age-sex pyramids.
+
+# Challenges
+
+There were several packages available for epi analysis on CRAN, but we wanted to
+ensure that these packages were at least tested and had a consistent interface.
+Unfortunately, not very many appeared to have tests or were even updated 
+recently.
+
+Field epidemiologists are varied in their training for statistical tools. Most
+will be familiar with excel, other will be familiar with STATA, and the newer
+cohorts will have had some training in R. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
