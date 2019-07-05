@@ -48,8 +48,15 @@ Fifteen minutes is enough to divide the talk up into
 
 ## Data Collection
 
+The hope is that you are spending most of your time doing this and getting a
+sense of the context.
 
 ## Analysis
+
+Unfortunately, most of the time is spent doing this, which is coallating the 
+data and preparing weekly field reports, which easily takes an entire day
+.... back logs... more messy data.... no field time.... more messy data.... you
+get the picture. 
 
 ## Operational Decisions/Interventions
 
