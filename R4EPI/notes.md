@@ -79,3 +79,16 @@ Annick:
 
 This initiative started out of a proposal to the Sapling Nursery fund from MSF,
 which supports MSF staff in developing new ideas that can have a broad impact. 
+
+The situation was that MSF field epis were spending most of their time on data
+analysis and not much time in contact with the data collectors, getting a sense
+of the context. Most of the STATA scripts were ad-hoc and the STATA licenses
+were difficult to maintain across 25 countries with rapid handover between field
+epis. The hope was that MSF could better reduce costs by switching to R and also
+ensuring that the analyses were suited to their needs.
+
+Annick and Amrish got together and wrote the proposal. We had an initial meeting
+in October of 2018 with epis, managers, NGOs and RECON to get a sense of what
+the landscape was.
+
+
