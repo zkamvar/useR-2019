@@ -42,15 +42,14 @@ CHANGE OF PLANS: I HAVE 15 MINUTES
 
 [^1]: Outside collaborator
 
-# 2. Dreams of an Epidemiologist (2 minutes)
+# 2. Dreams of an Epidemiologist
 
-"the hope is that the majority of the time you are spending out in the
-community, supervising data collectors and getting a feel for the context/risk
-factors."
+"[you hope to spend the majority of your time] out in the community,
+supervising data collectors and getting a feel for the context/risk factors."
 
  -- Alex Spina
 
-# 3. Background (3 minutes)
+# 3. Background
 
 Announcement article: <https://twitter.com/msf_innovation/status/1054845762838949889>
 Amrish tweet:         <https://twitter.com/Ammer_B/status/1055017765956976640>
@@ -91,7 +90,7 @@ R4epi in theory simplifies and standardises all of that so that you save a lot
 of time pointing and clicking and finding files - and spend more time out doing
 what field epi is about.
 
-# 3.1 What did we accomplish (2 minutes)
+# 3.1 What did we accomplish
 
  <!-- use imagery of the triforce of wisdom -->
  
@@ -108,12 +107,14 @@ Alex Spina  [12 minutes ago]
 Think the other thing this package gives beyond just msf field work ... is
 generally simplifying R for all epis!
 
-# 4. Challenges we faced (2 minutes)
+# 4. Challenges we faced
 
-# 5. Feedback from field Epis (4 minutes)
+# 5. Feedback from field Epis
 
-# 6. Further directions (4 minutes)
+# 6. Further directions
 
+ - Greg Martin video tutorials
+ - 
 
 
 
