@@ -103,7 +103,11 @@ mortality and access to care. These would be based off of MSF templates.
 
 ## Steps
 
-1. 
+1. Adapt MSF templates to RMarkdown 
+2. Identify relevant packages for descriptive analysis
+3. Write the analysis
+4. Trim out the repetative bits into functions
+5. Test with field epis 
 
 ## Development
 
@@ -119,7 +123,100 @@ tailored to the expectations of MSF field epidemiologists. We also wanted to
 make sure that the packages we used were trustworthy (e.g. they had tests and
 continuous integration at a minimum). 
 
+For workflow, we opted for an open GitHub flow where all contributors to the
+repository needed to have 2FA set up. 
 
+# What did we accomplish
+
+We created automated situation reports from standardised DHIS2 exported data 
+for field epis to use. We have an R package that hosts these templates and the
+functions to work with them. These templates and functions will properly perform
+analyses without unexpectedly dropping variables and abstracting away tedious
+details for producing common visualisations (such as age/gender pyramids).
+
+This effort also resulted in the new CRAN package `aweek`, which makes simple
+conversion from dates to weeks, starting on any day of the week.
+
+# Challenges
+
+## Existing packages
+
+When we assessed the existing packages for this project, there were several
+packages related to epi analysis that either had no tests or no integration, or
+both. There were some spatial packages that we considered using for interactive
+maps, but unfortunately these had a buried dependency on rJava, which is
+notoriously difficult to install. There were some packages that worked fine and
+produced summary tables, but the output was either too verbose, not verbose 
+enough, or in an odd format that didn't quite align with our goals. 
+
+ - no tests
+ - no integration
+ - required rJava
+ - not-quite-there output (srvyr was a good example)
+
+## Contributing
+
+Several of our contributors were first-time contributors who had learned R in a
+data analysis context, so there were often issues with bare variable names and 
+pipes that would throw warnings and errors in the check process. People new to
+git and github would for the repository and make changes to the master branch
+instead of a separate branch. 
+
+## Weight
+
+We did not have direct access to the data, so we handled this in two ways. In
+order to test the package on linelist data, we generated data based on the
+DHIS2 data dictionaries. In order to test how well they worked with real-world
+data, we sent them to epidemiologists in the field to test them. This revealed
+an additional hurdle: because we needed to handle descriptive, survey, and 
+geospatial data, the weight of the packages used was fairly heavy and difficult
+to successfully install on the first try in the field where a 128K connection is
+considered fast. 
+
+# Hackathon
+
+We held two half-day hackathons on 4-5 July 2019 that brought together several
+field epis to test out these templates on their field data. We had set up a
+group conference call where we could share screens and organised conversations
+on an etherpad. 
+
+## Overall impressions
+
+ - Labelling instructions in comments is not a particularly easy task as people
+   are wont to gloss over them. 
+ - Renaming and matching variables is *hard* and frustrating
+ - examples need to actually match the data set due to cognitive overhead for
+   newbies.
+ - Depending on the level of the R user, the concept of comments were not always
+   intuitive
+
+Most people had non-standard data, so the longest part was ensuring that the
+variables matched up with the data. We had a helper function to help rename the
+variables based off of the dictionary, but this printed in order of the
+dictionary and, in the words of one epi, "Renaming variables without any order
+is *exquisitely painful*"
+
+# Future work
+
+## Upkeep
+
+For maintenance, we need to do an concious decoupling of sitrep into tinier unit
+packages for visualisation, descriptive statistics, and survey statistics. We
+still have yet to create a landing page for new users with instructions on how
+to use this tool and tutorials. We have a wiki, but that's more of a placeholder
+for now. 
+
+## Tutorials
+
+We plan to set up a tutorial site that can help guide people through basics 
+descriptive analyses in R that will additionally come with a video component
+courtesy of Dr. Greg Martin, who hosts a youtube video series about data analysis
+in R in his spare time. There are ideas of hosting R sprints/battles where 
+specific analytical tasks are posed to two epis and the code it out and compare
+the two solutions. 
+
+All in all, we still have a ways to go, but I, for one, am super excited to get
+there.
 
 
 --------------------------------------------------------------------------------
