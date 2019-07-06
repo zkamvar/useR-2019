@@ -40,9 +40,52 @@ Fifteen minutes is enough to divide the talk up into
 
 # Introduction
 
+Epidemiologists are key for organizations like MSF to respond to outbreaks and
+monitor situations that may lead to outbreaks. Data from patients are
+collected, aggregated, analyzed, and summarised in reports that lead to
+operational decisions and interventions, which could include ensuring
+allocating food aid or beds to new regions. The hope of the epidemiologist on
+the ground is that the spend the vast majority of their time out in the
+community, supervising the data collectors to get a sense of the context and
+risk factors. This background context can then be combined with the data
+analysis and used to inform the response.
+
+The reality, however, is that field epis are spending most of their time
+adapting their predecessors analysis code from proprietary software, cleaning
+data, running and re-running statistical analyses by hand, and copying/pasting
+reports together. They can easily spend an entire day doing this for one weekly
+report and then do it all over the next week. 
+
+It's from this context that the R4EPIs initiative was born. We wanted to
+improve the way MSF responds to outbreaks and emergencies by creating
+standardized and automated situation reports along with educational materials
+so that field epis could spend more time thinking about how the data fits in
+with the context. 
+
+This project is still ongoing, so I will be discussing the unique challenges
+that we faced in the group effort, feedback that we've gotten from field epis
+who have tested out these automated reports and tools, and a peek at where we
+are heading in the future of this project.
+
 ## Links
 
+ - https://github.com/R4EPI/sitrep
+ - https://blogs.msf.org/bloggers/larissa/innovation-introducing-r4epis
+
 ## Acknowledgements
+
+Because there is the risk I will run out of time (though Rich will make
+absolute certain that I do not), I wanted to make sure to acknowledge the vast
+amount of people who have contributed to this effort. We had a unique
+combination of field staff, advisors, and academics helping out this
+collaboration between MSF and RECON.
+
+Annick Lenglet and Amrish Baidjoe were instrumental in securing the MSF Sapling
+Nursery funding for this proposal and Annick has been a fantastic manager and
+coordinator of the effort.
+
+
+
 
 # What does an epidemiologist do?
 
