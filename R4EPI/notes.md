@@ -38,7 +38,9 @@ what field epi is about.
 
 Fifteen minutes is enough to divide the talk up into 
 
-# Introduction
+# The R4EPIs project: a new hope
+
+## The dream
 
 Epidemiologists are key for organizations like MSF to respond to outbreaks and
 monitor situations that may lead to outbreaks. Data from patients are
@@ -50,11 +52,15 @@ community, supervising the data collectors to get a sense of the context and
 risk factors. This background context can then be combined with the data
 analysis and used to inform the response.
 
+## The reality
+
 The reality, however, is that field epis are spending most of their time
 adapting their predecessors analysis code from proprietary software, cleaning
 data, running and re-running statistical analyses by hand, and copying/pasting
 reports together. They can easily spend an entire day doing this for one weekly
 report and then do it all over the next week. 
+
+## The hope
 
 It's from this context that the R4EPIs initiative was born. We wanted to
 improve the way MSF responds to outbreaks and emergencies by creating
@@ -84,24 +90,44 @@ Annick Lenglet and Amrish Baidjoe were instrumental in securing the MSF Sapling
 Nursery funding for this proposal and Annick has been a fantastic manager and
 coordinator of the effort.
 
+# Laying the groundwork
+
+## Priorities
+
+We prioritized creating templates for specific outbreak scenarios based on the
+amount of data standardization, frequency in MSF settings, and that had epis who
+most familiar with or most keen to learn R. These included outbreak reports from
+four scenarios, Cholera, Meningitis, Measles, and Acute Jaundice Syndrom. We
+also included reports for Malnutrition, Vaccination Coverage, and Retrospective
+mortality and access to care. These would be based off of MSF templates.
+
+## Steps
+
+1. 
+
+## Development
+
+Mean to lean: we wanted to develop templates and that would produce results
+first and then abstract out into custom functions for summary tables and
+visualisations, which are not in theory difficult to create, but can contain
+pitfalls that new users to R may not be aware of (e.g. default dropping of
+factor levels).
+
+When we were developing the reports, we wanted to make sure that we avoided
+re-inventing the wheel as much as possible, while still giving output highly
+tailored to the expectations of MSF field epidemiologists. We also wanted to
+make sure that the packages we used were trustworthy (e.g. they had tests and
+continuous integration at a minimum). 
 
 
 
-# What does an epidemiologist do?
 
-## Data Collection
+--------------------------------------------------------------------------------
 
-The hope is that you are spending most of your time doing this and getting a
-sense of the context.
 
-## Analysis
+ 
 
-Unfortunately, most of the time is spent doing this, which is coallating the 
-data and preparing weekly field reports, which easily takes an entire day
-.... back logs... more messy data.... no field time.... more messy data.... you
-get the picture. 
-
-## Operational Decisions/Interventions
+## Quotes
 
 Amrish: 
 
